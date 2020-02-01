@@ -1,6 +1,5 @@
-# CSE330
-466949
-466838
+# AJAX Calendar
+
 
 
 Website URL:
