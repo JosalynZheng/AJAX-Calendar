@@ -1,0 +1,55 @@
+.login{
+    text-align: center;
+    height: 100%;
+}
+.login:before{
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.centered {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+.register{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+input[type="text"]{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.logout{
+    text-align: center;
+    height: 100%;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: rgb(105, 164, 187);
+}
+
+.date {
+	font-size: 20px;
+}
+.main-content {
+	display: grid;
+	grid-auto-flow: row;
+	grid-template-rows: 50px auto 50px;
+    grid-template-columns: 240px minmax(320px, 1fr) 200px;  
+    /* grid-template-rows: repeat(3 , 100%);
+    grid-template-columns: repeat(3, 100%); */
+    /* grid-template-rows: repeat(10 , 170px)1000px;
+    grid-template-columns: repeat(7, minmax(1300px, 1fr)); */
+}
